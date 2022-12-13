@@ -1,34 +1,6 @@
----
-title:  'Great and certainly not overstated contribution to the literature'
-shorttitle: 'Overstated contribution to the literature'
-journal: 'Journal of Good Research'
-author:
-- name: Sigmund Freud
-  email: me@myuni.no
-  footnote: 1
-  orcid: 0000-0002-9998-0058
-- name: Knut Knutsen
-  footnote: 1
-- name: Erik Eriksson
-  footnote: 2
-  institute: Institute for Psychology, University of Tromsø # corresponding author needs institute
-  email: and.thisguy@otherplace.org
-  corresponding: true
-affiliation:
-- number: 1
-  name: Institute for Psychology, University of Tromsø
-- number: 2
-  name: University of Otherplace
-keyword:
-  - latex
-  - markdown
-lineno: false
-abbreviation:
-  - tDCS, transcranial direct current stimulation
-  - MW, mind wandering
-abstract: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# CMRM Homework Assignment No. 2
 
+<<<<<<< HEAD
 ### a subsection 
 
 Dot list
@@ -38,12 +10,17 @@ Dot list
 
 
 Some [red text **which supports** markdown.]{.red}
+=======
+Group composition 
+
+Marco Filosa – marco.filosa@mail.polimi.it
+Guglielmo Fratticioli – guglielmo.fratticioli@mail.polimi.it 
+>>>>>>> f6bfd01573f5c12c8ff1c68558842a70eb9b840b
 
 
-<!---
-Comments look like this and do not show up in the PDF
--->
+# Question 1
 
+<<<<<<< HEAD
 References are cited as @mittner2014brain or [@mittner2014brain].
 
 ## Section
@@ -99,3 +76,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 # References
+=======
+The *compute_chromagram* function exploits the steps to synthesize the chromagram. Considering a generic input audio signal, sampled in time, the processing takes account of:
+- Computing the STFT of the audio signal, using the 
+- Computing 
+ 
+>>>>>>> f6bfd01573f5c12c8ff1c68558842a70eb9b840b
