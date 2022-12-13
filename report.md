@@ -8,35 +8,24 @@ Guglielmo Fratticioli – guglielmo.fratticioli@mail.polimi.it
 
 ## PART 1  
 
-The **compute_chromagram( )** function exploits the steps to synthesize the chromagram. Considering a generic input audio signal, sampled in time, the processing takes account of:
-- Computing the STFT of the audio signal, using the 
-- Computing 
+The ` compute_chromagram() ` function synthesize the chromagram. Considering a generic input audio signal, sampled in time, the processing takes account of:
+- evaluate the chroma_type to decide between STFT, cqt
+- Computing the chromagram based on STFT or cqt through the `librosa.feature.chroma_stft` function
+- ploting the chromagram,` using SpecsShow()`
+- return the chromagram librosa object
+
+Then we tested ` compute_chromagram()` with the file ` LynyrdSkynyrd_SweetHomeAlabama.wav` 
+
+
+| plots      | Description |
+| ----------- | ----------- |
+| ![](/plots/chromagram_stft.png)     | Title       |
+| ![](/plots/chromagram_cqt.png)      | Title       |
 
 ---
 
+## PART 2
 
-
-
-## subsection
-
-Lorem ...
-
-
-Figures are included like this.
-
-![This is gonna be the caption.](a.png)
-
-Complex tables can use standard LaTeX code as this one.
-
-Equations can be used inline $y=\beta_0 + \beta_1 x + \epsilon$ or as usual $$f(x)=\frac{1}{x}$$
-
-<!---
-Comments
--->
-
-Lorem ....
-
----
 ## Discussion
 
 Lorem ...
